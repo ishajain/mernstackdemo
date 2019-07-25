@@ -13,7 +13,7 @@ const app = express()
 app.use(cors())
 app.use(auth)
 app.use(bodyParser.json())
-app.use("/", routes)
+//app.use("/", routes)
 app.use("/news", newsRoutes)
 app.use('/user', authRoutes);
 
